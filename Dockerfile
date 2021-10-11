@@ -1,7 +1,7 @@
 FROM gcr.io/deeplearning-platform-release/tf-cpu.1-15
 
 WORKDIR /neogpt
-
+RUN echo "hello"
 # Make RUN commands use `bash --login`:
 SHELL ["/bin/bash", "--login", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive 
