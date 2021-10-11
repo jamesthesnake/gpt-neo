@@ -7,6 +7,7 @@ oauth2client
 ortools
 pytest
 sacred
+django
 tensorflow==2.5.1
 tensorflow-datasets==3.2.1
 tokenizers==0.9.4
